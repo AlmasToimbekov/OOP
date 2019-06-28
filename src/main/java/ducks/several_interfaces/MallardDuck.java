@@ -1,25 +1,16 @@
 package main.java.ducks.several_interfaces;
 
-public class MallardDuck implements Duck, Quackable, Flyable {
-    @Override
-    public void swim() {
-        System.out.println("Mallard duck is swimming");
+import main.java.ducks.several_interfaces.fly_algorythm.FlyWithWings;
+import main.java.ducks.several_interfaces.quack_algorythm.QuackBehaviorImpl;
+
+public class MallardDuck extends Duck {
+    public MallardDuck() {
+        quackBehavior = new QuackBehaviorImpl();
+        flyBehavior = new FlyWithWings();
     }
 
-    @Override
     public void display() {
-        System.out.println("Mallard duck is displayed");
+        System.out.println("I'm a real Mallard duck");
 
-    }
-
-    @Override
-    public void quack() {
-        System.out.println("Mallard duck is quacking");
-
-    }
-
-    @Override
-    public void fly() {
-        System.out.println("Mallard duck is flying");
     }
 }
