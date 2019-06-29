@@ -1,4 +1,4 @@
-package main.java.beverage_decorator;
+package main.java.decorator.beverage;
 
 public abstract class Beverage {
     String description = "Unknown Beverage";
