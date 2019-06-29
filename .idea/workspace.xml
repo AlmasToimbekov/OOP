@@ -2,57 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6dadb0b-0f8e-4acd-826c-06ef352dbb9c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/java_observer/CurrentConditionsDisplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/java_observer/DisplayElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/java_observer/TestObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/java_observer/WeatherData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/weather_observer/CurrentConditionsDisplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/weather_observer/DisplayElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/weather_observer/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/weather_observer/Subject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/weather_observer/TestObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/weather_observer/WeatherData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/beverage_decorator/Beverage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/beverage_decorator/CondimentDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/beverage_decorator/DecoratorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/beverage_decorator/Espresso.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/beverage_decorator/HouseBlend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/beverage_decorator/Milk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/beverage_decorator/Mocha.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OOP/main/java/car_abstract_factory/AbstractFactoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OOP/main/java/car_abstract_factory/AbstractFactoryTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OOP/main/java/car_abstract_factory/Ferrari.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OOP/main/java/car_abstract_factory/Ferrari.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OOP/main/java/car_abstract_factory/InteAbsFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OOP/main/java/car_abstract_factory/InteAbsFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OOP/main/java/car_abstract_factory/Lada.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OOP/main/java/car_abstract_factory/Lada.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OOP/main/java/car_abstract_factory/Porshe.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OOP/main/java/car_abstract_factory/Porshe.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OOP/main/java/car_abstract_factory/RuCarPriceAbsFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OOP/main/java/car_abstract_factory/RuCarPriceAbsFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OOP/main/java/car_abstract_factory/RuFerrariImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OOP/main/java/car_abstract_factory/RuFerrariImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OOP/main/java/car_abstract_factory/RuLadaImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OOP/main/java/car_abstract_factory/RuLadaImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OOP/main/java/car_abstract_factory/RuPorsheImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OOP/main/java/car_abstract_factory/RuPorsheImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OOP/main/java/car_abstract_factory/UaCarPriceAbsFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OOP/main/java/car_abstract_factory/UaCarPriceAbsFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OOP/main/java/car_abstract_factory/UaFerrariImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OOP/main/java/car_abstract_factory/UaFerrariImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OOP/main/java/car_abstract_factory/UaLadaImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OOP/main/java/car_abstract_factory/UaLadaImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OOP/main/java/car_abstract_factory/UaPorsheImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OOP/main/java/car_abstract_factory/UaPorsheImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OOP/main/java/ducks/d.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OOP/main/java/ducks/d.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OOP/main/java/ducks/several_interfaces/DecoyDuck.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OOP/main/java/ducks/several_interfaces/DecoyDuck.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OOP/main/java/ducks/several_interfaces/Duck.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OOP/main/java/ducks/several_interfaces/Duck.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OOP/main/java/ducks/several_interfaces/FlyBehavior.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OOP/main/java/ducks/several_interfaces/FlyNoWay.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OOP/main/java/ducks/several_interfaces/FlyRocketPowered.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OOP/main/java/ducks/several_interfaces/FlyWithWings.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OOP/main/java/ducks/several_interfaces/MallardDuck.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OOP/main/java/ducks/several_interfaces/MallardDuck.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OOP/main/java/ducks/several_interfaces/ModelDuck.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OOP/main/java/ducks/several_interfaces/ModelDuck.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OOP/main/java/ducks/several_interfaces/MuteQuackImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OOP/main/java/ducks/several_interfaces/QuackBehavior.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OOP/main/java/ducks/several_interfaces/QuackBehaviorImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OOP/main/java/ducks/several_interfaces/RubberDuck.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OOP/main/java/ducks/several_interfaces/RubberDuck.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OOP/main/java/ducks/several_interfaces/SqueakImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OOP/main/java/ducks/several_interfaces/test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OOP/main/java/filling_cars/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OOP/main/java/filling_cars/Car.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OOP/main/java/filling_cars/CarFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OOP/main/java/filling_cars/CarFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OOP/main/java/filling_cars/Engine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OOP/main/java/filling_cars/Engine.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OOP/main/java/filling_cars/Exterior.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OOP/main/java/filling_cars/Exterior.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OOP/main/java/filling_cars/ExteriorImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OOP/main/java/filling_cars/ExteriorImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OOP/main/java/filling_cars/Interior.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OOP/main/java/filling_cars/Interior.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OOP/main/java/filling_cars/InteriorImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OOP/main/java/filling_cars/InteriorImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OOP/main/java/filling_cars/Seat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OOP/main/java/filling_cars/Seat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OOP/main/java/filling_cars/Steering.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OOP/main/java/filling_cars/Steering.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OOP/main/java/filling_cars/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OOP/main/java/filling_cars/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OOP/main/java/filling_cars/Wheel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OOP/main/java/filling_cars/Wheel.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -67,22 +24,82 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/java_observer/WeatherData.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/beverage_decorator/Beverage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="6" column="36" lean-forward="true" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+            <state relative-caret-position="90">
+              <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/beverage_decorator/CondimentDecorator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/beverage_decorator/Mocha.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#134#135#0" expanded="true" />
+                <element signature="e#174#175#0" expanded="true" />
+                <element signature="e#317#318#0" expanded="true" />
+                <element signature="e#343#344#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/beverage_decorator/Milk.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+              <folding>
+                <element signature="e#145#146#0" expanded="true" />
+                <element signature="e#186#187#0" expanded="true" />
+                <element signature="e#337#338#0" expanded="true" />
+                <element signature="e#385#386#0" expanded="true" />
+                <element signature="e#342#343#0" expanded="true" />
+                <element signature="e#386#387#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.base/java/util/Observable.class">
+        <entry file="file://$PROJECT_DIR$/src/main/java/beverage_decorator/DecoratorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-292">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="23" />
+            <state relative-caret-position="105">
+              <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/beverage_decorator/HouseBlend.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/beverage_decorator/Espresso.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="8" column="17" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="17" />
+              <folding>
+                <element signature="e#171#172#0" expanded="true" />
+                <element signature="e#198#199#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -92,8 +109,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -103,13 +120,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/AsiaCarFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/d" />
-        <option value="$PROJECT_DIR$/src/main/java/t.java" />
-        <option value="$PROJECT_DIR$/src/test/java/AbstractFactoryTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Ferrari.java" />
-        <option value="$PROJECT_DIR$/src/main/java/UaCarPriceAbsFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/RuPorsheImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/UaPorsheImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/UaLadaImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/AbstractFactoryTest.java" />
@@ -154,6 +164,13 @@
         <option value="$PROJECT_DIR$/src/main/java/weather_observer/TestObserver.java" />
         <option value="$PROJECT_DIR$/src/main/java/java_observer/Subject.java" />
         <option value="$PROJECT_DIR$/src/main/java/java_observer/WeatherData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/beverage_decorator/CondimentDecorator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/beverage_decorator/Espresso.java" />
+        <option value="$PROJECT_DIR$/src/main/java/beverage_decorator/Beverage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/beverage_decorator/HouseBlend.java" />
+        <option value="$PROJECT_DIR$/src/main/java/beverage_decorator/Mocha.java" />
+        <option value="$PROJECT_DIR$/src/main/java/beverage_decorator/Milk.java" />
+        <option value="$PROJECT_DIR$/src/main/java/beverage_decorator/DecoratorTest.java" />
       </list>
     </option>
   </component>
@@ -192,7 +209,7 @@
               <item name="OOP" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="java_observer" type="462c0819:PsiDirectoryNode" />
+              <item name="beverage_decorator" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OOP" type="b2602c69:ProjectViewProjectNode" />
@@ -246,6 +263,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="main.java.beverage_decorator" />
       <recent name="main.java.ducks.several_interfaces" />
       <recent name="main.java.Other" />
       <recent name="test.java" />
@@ -268,13 +286,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestObserver">
+  <component name="RunManager" selected="Application.DecoratorTest">
     <configuration name="AbstractFactoryTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.java.car_abstract_factory.AbstractFactoryTest" />
       <module name="OOP" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="main.java.car_abstract_factory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DecoratorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.beverage_decorator.DecoratorTest" />
+      <module name="OOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.beverage_decorator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -321,26 +352,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSquadron" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.java.TestSquadron" />
-      <module name="OOP" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.java.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DecoratorTest" />
         <item itemvalue="Application.TestObserver" />
         <item itemvalue="Application.StrategyTest" />
         <item itemvalue="Application.AbstractFactoryTest" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.TestSquadron" />
       </list>
     </recent_temporary>
   </component>
@@ -356,12 +374,20 @@
       <updated>1561701530603</updated>
       <workItem from="1561701531934" duration="11956000" />
       <workItem from="1561730975624" duration="459000" />
-      <workItem from="1561733017048" duration="6147000" />
+      <workItem from="1561733017048" duration="8913000" />
     </task>
+    <task id="LOCAL-00001" summary="Observer pattern on weather change">
+      <created>1561774549065</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1561774549065</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24819000" />
+    <option name="totallyTimeSpent" value="27585000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -373,10 +399,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="25" width="1299" height="743" extended-state="7" />
+    <frame x="67" y="25" width="1299" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.254589" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.254589" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -385,7 +411,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32247558" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32247558" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39739415" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -450,60 +476,11 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Observer pattern on weather change" />
+    <option name="LAST_COMMIT_MESSAGE" value="Observer pattern on weather change" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/car_abstract_factory/RuCarPriceAbsFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/car_abstract_factory/InteAbsFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/car_abstract_factory/Lada.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/car_abstract_factory/Porshe.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/car_abstract_factory/Ferrari.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/filling_cars/Wheel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-          <folding>
-            <element signature="e#103#104#0" expanded="true" />
-            <element signature="e#143#144#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/filling_cars/Engine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/filling_cars/Steering.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
@@ -786,6 +763,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.base/java/util/Observable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-292">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/java_observer/WeatherData.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -796,10 +780,70 @@
         </state>
       </provider>
     </entry>
-    <entry file="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.base/java/util/Observable.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/beverage_decorator/CondimentDecorator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-292">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="23" />
+        <state relative-caret-position="45">
+          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/beverage_decorator/Beverage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/beverage_decorator/Mocha.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+          <folding>
+            <element signature="e#134#135#0" expanded="true" />
+            <element signature="e#174#175#0" expanded="true" />
+            <element signature="e#317#318#0" expanded="true" />
+            <element signature="e#343#344#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/beverage_decorator/Milk.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <element signature="e#145#146#0" expanded="true" />
+            <element signature="e#186#187#0" expanded="true" />
+            <element signature="e#337#338#0" expanded="true" />
+            <element signature="e#385#386#0" expanded="true" />
+            <element signature="e#342#343#0" expanded="true" />
+            <element signature="e#386#387#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/beverage_decorator/HouseBlend.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/beverage_decorator/Espresso.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="17" />
+          <folding>
+            <element signature="e#171#172#0" expanded="true" />
+            <element signature="e#198#199#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/beverage_decorator/DecoratorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
         </state>
       </provider>
     </entry>
