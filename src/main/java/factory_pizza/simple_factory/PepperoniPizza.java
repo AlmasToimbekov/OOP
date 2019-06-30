@@ -1,4 +1,4 @@
-package main.java.factory.pizza.factory_method;
+package main.java.factory_pizza.simple_factory;
 
 public class PepperoniPizza implements Pizza {
     @Override

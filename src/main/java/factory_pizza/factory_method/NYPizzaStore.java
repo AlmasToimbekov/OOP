@@ -1,4 +1,4 @@
-package main.java.factory.pizza.factory_method;
+package main.java.factory_pizza.factory_method;
 
 public class NYPizzaStore extends PizzaStore {
     @Override

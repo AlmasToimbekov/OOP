@@ -1,4 +1,4 @@
-package main.java.factory.pizza.simple_factory;
+package main.java.factory_pizza.simple_factory;
 
 public class SimplePizzaFactory {
 
