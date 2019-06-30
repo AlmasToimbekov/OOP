@@ -1,28 +1,21 @@
 package main.java.filling_cars;
 
-public class CarFactory implements Car {
+import main.java.filling_cars.exterior.Exterior;
+import main.java.filling_cars.interior.Interior;
+
+public abstract class CarFactory implements Car {
     private String name;
     private Interior interior;
     private Exterior exterior;
 
-    private CarFactory(String name) {
-        this.name = name;
-        this.exterior = ExteriorImpl.setExterior();
-        this.interior = InteriorImpl.setInterior();
-    }
-
-    public static Car getCar(String name) {
-        return new CarFactory(name);
+    @Override
+    public Interior interior() {
+        return interior;
     }
 
     @Override
-    public Interior getInterior() {
-        return this.interior;
-    }
-
-    @Override
-    public Exterior getExterior() {
-        return this.exterior;
+    public Exterior exterior() {
+        return exterior;
     }
 
     public String getName() {
