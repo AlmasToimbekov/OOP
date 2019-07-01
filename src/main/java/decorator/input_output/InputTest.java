@@ -12,7 +12,7 @@ public class InputTest {
             InputStream in =
                 new LowerCaseInputStream(
                     new BufferedInputStream(
-                        new FileInputStream("/home/almas/IdeaProjects/esteam8/OOP/src/main/java/decorator/input_output/test.txt"
+                        new FileInputStream("/home/almas/IdeaProjects/esteam8/OOP/src/main/java/decorator/input_output/dynamic_cars.txt"
                         )));
             while((c = in.read()) >= 0) {
                 System.out.print((char)c);
