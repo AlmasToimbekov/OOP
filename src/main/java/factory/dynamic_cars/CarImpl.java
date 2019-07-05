@@ -1,7 +1,10 @@
 package main.java.factory.dynamic_cars;
 
 import main.java.factory.dynamic_cars.Exterior.Exterior;
+import main.java.factory.dynamic_cars.Exterior.ExteriorElements;
+import main.java.factory.dynamic_cars.Exterior.ExteriorElementsIterator;
 import main.java.factory.dynamic_cars.Interior.Interior;
+import main.java.factory.dynamic_cars.Interior.InteriorElementsIterator;
 
 import java.util.List;
 
@@ -11,17 +14,21 @@ public abstract class CarImpl implements Car {
     protected Interior interior;
     protected String name;
 
-    public void description() {
-        StringBuilder stringBuilder = new StringBuilder();
-        stringBuilder.append("Exterior: ");
+    public void description(Car.PrintType printType) {
+        if (printType == Car.PrintType.CYCLE) {
+            StringBuilder stringBuilder = new StringBuilder();
+            stringBuilder.append("Exterior: ");
 
-        getDescriptions(stringBuilder, exterior.getElements());
+            getDescriptions(stringBuilder, exterior.getElements());
 
-        if (interior.getElements().size() > 0) stringBuilder.append("Interior: ");
+            if (interior.getElements().size() > 0) stringBuilder.append("Interior: ");
 
-        getDescriptions(stringBuilder, interior.getElements());
+            getDescriptions(stringBuilder, interior.getElements());
 
-        System.out.println(this.getClass().getName().substring(31).toUpperCase() + " " + name + ": " + stringBuilder.toString());
+            System.out.println(this.getClass().getName().substring(31).toUpperCase() + " " + name + ": " + stringBuilder.toString());
+        } else if (printType.equals(Car.PrintType.ITERATOR)) {
+            getDescriptionsWithIterator();
+        }
     }
 
     private void getDescriptions(StringBuilder stringBuilder, List<? extends Elements> elements) {
@@ -33,6 +40,27 @@ public abstract class CarImpl implements Car {
                 stringBuilder.append(", ");
             }
         }
+    }
+
+    private void getDescriptionsWithIterator() {
+        Iterator exteriorIterator = exterior.createIterator();
+        Iterator interiorIterator = interior.createIterator();
+
+        System.out.print(this.getClass().getName().substring(31).toUpperCase() + " " + name + ": ");
+
+        System.out.print("Exterior: ");
+        printDescriptions(exteriorIterator);
+        System.out.print("\nInterior: ");
+        printDescriptions(interiorIterator);
+        System.out.println("\n");
+
+    }
+
+    private void printDescriptions(Iterator iterator) {
+        while (iterator.hasNext()) {
+            System.out.print(iterator.getNextDescription() + ", ");
+        }
+
     }
 
     public Car create() {

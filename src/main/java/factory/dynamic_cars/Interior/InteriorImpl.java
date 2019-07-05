@@ -1,6 +1,8 @@
 package main.java.factory.dynamic_cars.Interior;
 
 import main.java.factory.dynamic_cars.Car;
+import main.java.factory.dynamic_cars.Iterator;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -26,5 +28,9 @@ public abstract class InteriorImpl implements Interior {
 
     public Car and() {
         return car;
+    }
+
+    public Iterator createIterator() {
+        return new InteriorElementsIterator(elements);
     }
 }

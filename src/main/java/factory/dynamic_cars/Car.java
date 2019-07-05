@@ -6,6 +6,7 @@ import main.java.factory.dynamic_cars.Interior.Interior;
 public interface Car {
     Exterior exterior();
     Interior interior();
-    void description();
+    enum PrintType { CYCLE, ITERATOR };
+    void description(Car.PrintType printType);
     Car create();
 }

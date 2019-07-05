@@ -1,6 +1,7 @@
 package main.java.factory.dynamic_cars.Exterior;
 
 import main.java.factory.dynamic_cars.Car;
+import main.java.factory.dynamic_cars.Iterator;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -27,5 +28,9 @@ public abstract class ExteriorImpl implements Exterior {
 
     public Car and() {
         return car;
+    }
+
+    public Iterator createIterator() {
+        return new ExteriorElementsIterator(elements);
     }
 }

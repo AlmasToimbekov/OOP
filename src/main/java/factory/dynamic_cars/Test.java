@@ -10,10 +10,10 @@ public class Test {
     public static void main(String[] args) {
 
         Car simpleCar = SimpleCar.getInstance("Lada").create();
-        simpleCar.description();
+        simpleCar.description(Car.PrintType.CYCLE);
 
         Car superCar = SuperCar.getInstance("Porshe").create();
-        superCar.description();
+        superCar.description(Car.PrintType.ITERATOR);
 
         Car builtCar = SimpleCar.getInstance("Zapor")
             .exterior()
@@ -25,6 +25,6 @@ public class Test {
             .setElement(Seat.getInstance(3))
             .setElement(Steering.getInstance("grey"))
             .and();
-        builtCar.description();
+        builtCar.description(Car.PrintType.CYCLE);
     }
 }
