@@ -1,6 +1,8 @@
 package main.java.iterator;
 
 import java.util.ArrayList;
+import java.util.Iterator;
+
 
 public class PancakeHouseMenuIterator implements Iterator {
     ArrayList<MenuItem> items;

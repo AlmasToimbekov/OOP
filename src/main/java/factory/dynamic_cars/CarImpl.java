@@ -1,11 +1,7 @@
 package main.java.factory.dynamic_cars;
 
 import main.java.factory.dynamic_cars.Exterior.Exterior;
-import main.java.factory.dynamic_cars.Exterior.ExteriorElements;
-import main.java.factory.dynamic_cars.Exterior.ExteriorElementsIterator;
 import main.java.factory.dynamic_cars.Interior.Interior;
-import main.java.factory.dynamic_cars.Interior.InteriorElementsIterator;
-
 import java.util.List;
 
 public abstract class CarImpl implements Car {
